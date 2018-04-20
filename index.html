@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Psu">
+    <meta name="author" content="DEMRE.CL" >
+      <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>Maipú</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Maipú</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Primera</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">Segunda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">Tercera</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1> Educación en Maipú </h1>
+          	<h2> Desempeño PSU </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+               <ul id="aqui" class="list-unstyled"></ul>
+
+          <div class="col-lg-6 dataviz-primera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">PSU vs NEM </h3>
+            <p>Cuando se habla del ranking hay que precisar que sólo sirve para la admisión de las universidades del Consejo de Rectores y que no es la única variable existente. También está el NEM y, lo más gravitante, el resultado de la Prueba Selección Univeristaria (PSU).</p>
+            
+            <p>Así, del puntaje ponderado - o sea con el que se postula a cada carrera- entre un 10 y un 40% corresponde al NEM (promedio de notas de enseñanza media al que se le asigna un puntaje); un 10 a un 40% puede ser aportado por el ranking; y entre un 50 y 70% lo entrega la PSU.</p>
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">Resultados de la PSU por Sexo </h3>
+            <p>El puntaje promedio PSU* de escuelas Municipales fue 507 puntos, de escuelas Particulares Subvencionadas fue 513 puntos, de escuelas Particulares Pagadas fue 588 puntos y de escuelas de Administración Delegada fue 476 puntos.</p>
+              <p>*El promedio PSU es el promedio calculado a partir del puntaje obtenido en las Pruebas de Lenguaje y Comunicación y de Matemática.</p>
+            
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3"> Personas que rindieron la PSU por Sexo </h3>
+            <p>Las escuelas de Maipú con mejor desempeño PSU en 2016 son COLEGIO INTERNACIONAL ALBA, Instituto Humanidades Bernardo O'Higgins y Liceo Nacional de Maipú.</p>
+              <p>8.835
+Estudiantes que rindieron la PSU, de un total de 19.434 personas.
+En 2016</p>
+             
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="catalina_tolozae@hotmail.com"> Catalina Toloza </a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">PRIMERA</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">SEGUNDA</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">TERCERA</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+      
+      
+      
+      
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
